@@ -36,6 +36,12 @@ body{
 	padding-top: 0.20rem;
 	text-align: center;
 }
+
+.more{
+	float: right;
+	margin-right: 10vw;
+	font-size: 20px;
+}
 .address_icon{
 	font-family: 'iconfont';
 }
@@ -146,7 +152,7 @@ body{
 	display: block;/*和none结合一起用，用来显示/隐藏某些元素、转为块元素、实现元素依次竖排*/
 }
 #hours li,#date li{
-	width: 2rem;
+	width: 2.2rem;
 	height: 100%;
 	/*background-color: pink;*/
 	display: flex;
@@ -217,7 +223,8 @@ body{
 	top:0;
 	bottom: 0;
 	background-color:#F6F6F6;
-		position: fixed;
+	position: fixed;
+	display: none;
 }
 
 header{
@@ -273,16 +280,18 @@ span{
 
 
 }
-.cityname{
+.province ,.city{
 	width: 2.28rem;
 	height: 0.78rem;
 	background-color: #FFFFFF;
 	border:0.03rem solid #E0E0E0;
 	border-radius: 0.12rem;
 	margin-top: 0.39rem;
-
+	float: left;
+	margin-right: 0.3rem;
 	flex-shrink: 0;
 }
+
 
 .remencityitem p{
 	text-align: center;
